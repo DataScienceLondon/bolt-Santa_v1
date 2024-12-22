@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F8F8FF;
+}
+
+.snowflake {
+  @apply fixed text-white pointer-events-none;
+  animation: fall linear infinite;
+}
